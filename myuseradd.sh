@@ -8,9 +8,9 @@ read GROUP
 }
 
 createuser(){
-    sudo useradd $user
-    sudo usermod -aG $group $user
-    echo "The new user, $user, has been added to group $group"
+    sudo useradd $USER
+    sudo usermod -aG $GROUP $USER
+    echo "The new user, $USER, has been added to group '$GROUP'"
 }
 
 quit(){
