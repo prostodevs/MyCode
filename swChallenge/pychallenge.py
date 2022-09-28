@@ -13,5 +13,5 @@ def main():
     day_input = input("Enter the day of the week: ")
 
     # output statement using name and day
-    print("Hello, " + name_input + "! Happy " + day_input + "!")
+    print(f"Hello, {name_input}! Happy {day_input}!")
 main()
