@@ -11,10 +11,6 @@ def main():
     # display the input back to the user.
     print("You told me the IPv4 address is: " + user_input)
 
-    # ask for vendor information
-    vendor = input("Please enter the vendor name: ")
-    print(vendor)
-
 # this calls main
 main()
 
